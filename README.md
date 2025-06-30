@@ -209,4 +209,4 @@ This project is for educational purposes.
 
 ## Author
 
-Challa Narendhra Kumar
+Challa Divya Kumari
