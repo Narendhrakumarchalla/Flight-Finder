@@ -34,7 +34,7 @@ const Homepage = () => {
   return (
     <div className="bg-[url('/flight-bg1.jpg')] bg-cover bg-center w-full min-h-screen p-2">
       <div className="flex flex-col justify-center min-h-screen bg-opacity-50 -mb-30 -mt-5 ">
-        <h1 className="text-4xl md:text-6xl text-white font-bold text-gray/90 mb-4">Welcome to Flight Finder</h1>
+        <h1 className="text-4xl md:text-6xl text-white font-bold text-gray/90 mb-4">Welcome to <span className='text-orange-500'>Flight Finder</span></h1>
         <p className="text-lg md:text-xl text-white mb-8">Your one-stop solution for all flight bookings</p>
         <div className="flex flex-col md:flex-row w-[70%] gap-4 rounded-lg px-2 py-10 bg-white/10 backdrop-blur-md items-center">
           <select

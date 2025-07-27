@@ -26,7 +26,7 @@ const AdminDashboard = () => {
     const [status, setStatus]= useState("pending")
     const navigate = useNavigate()
 
-    const newRequests = requests.filter((req)=> req.status === "pending");
+    let newRequests = requests.filter((req)=> req.status === "pending");
 
     console.log(status);
     
