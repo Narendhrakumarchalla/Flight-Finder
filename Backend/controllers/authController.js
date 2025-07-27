@@ -29,7 +29,7 @@ const Login = async ( req, res )=>{
         const token = generateToken({_id:user._id})
 
         if(user.role === "admin"){
-            if(email !== process.env.ADMIN_EMAIL || password !== process.env.ADMIN_PASSWORD){
+            if(email !== "narendhrakumarchalla_61@gmail.com" || password !== "1234567890"){
                 return res.status(400).json({
                     success : false,
                     message : "Admin details not matched",

@@ -28,9 +28,6 @@ const AdminDashboard = () => {
 
     let newRequests = requests.filter((req)=> req.status === "pending");
 
-    console.log(status);
-    
-
     return (
       <div className="p-6 md:p-10 bg-gray-100 min-h-screen">
         <h1 className="text-3xl font-bold text-gray-800 mb-6">🛫 Admin Dashboard</h1>
